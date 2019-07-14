@@ -1,9 +1,10 @@
 /* main.scss */
 
-html {
-    body {
-        height: 100%;
-        background: rgb(186, 215, 236);
-    }
-}
 
+.wrap-geo{
+    background-image: url(../img/shar-t1.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+@import "main/es1_doors__1";

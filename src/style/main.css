@@ -1,4 +1,11 @@
-.top_menu.navbar-default .navbar-nav > li > ul {
-  width: 100%;
+/* main.scss */
+.wrap-geo {
+  background-image: url(../img/shar-t1.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
 }
 /*# sourceMappingURL=main.css.map */

@@ -76,9 +76,9 @@
   !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/style/main.scss ***!
   \******************************************************************************************************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-// extracted by mini-css-extract-plugin
+throw new Error("Module build failed: ModuleParseError: Module parse failed: Unexpected character '�' (1:0)\nYou may need an appropriate loader to handle this file type.\n(Source code omitted for this binary file)\n    at handleParseError (D:\\git\\site-4-okna\\node_modules\\webpack\\lib\\NormalModule.js:385:19)\n    at doBuild.err (D:\\git\\site-4-okna\\node_modules\\webpack\\lib\\NormalModule.js:419:5)\n    at runLoaders (D:\\git\\site-4-okna\\node_modules\\webpack\\lib\\NormalModule.js:280:12)\n    at D:\\git\\site-4-okna\\node_modules\\loader-runner\\lib\\LoaderRunner.js:370:3\n    at iterateNormalLoaders (D:\\git\\site-4-okna\\node_modules\\loader-runner\\lib\\LoaderRunner.js:211:10)\n    at Array.<anonymous> (D:\\git\\site-4-okna\\node_modules\\loader-runner\\lib\\LoaderRunner.js:202:4)\n    at Storage.finished (D:\\git\\site-4-okna\\node_modules\\enhanced-resolve\\lib\\CachedInputFileSystem.js:43:16)\n    at provider (D:\\git\\site-4-okna\\node_modules\\enhanced-resolve\\lib\\CachedInputFileSystem.js:79:9)\n    at D:\\git\\site-4-okna\\node_modules\\graceful-fs\\graceful-fs.js:78:16\n    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)");
 
 /***/ }),
 

@@ -13,6 +13,7 @@
     <link href="js/fancybox/source/jquery.fancybox.css" rel="stylesheet">
 
     <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/jquery.fancybox.pack.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
@@ -62,7 +63,7 @@
     <link href="js/twentytwenty-master/twentytwenty.css" rel="stylesheet">
 
     <link href="css/stylef5eb.css?vrs_4" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet">
 
     <link href="style/main.css" rel="stylesheet">
 
@@ -653,7 +654,7 @@
         <!-- /.es13_bg -->
 
 
-        <section class="b-karusel2 template slider_doors_wrapper">
+        <section class="b-karusel2 template slider_doors_wrapper" style="display: none;">
             <div class="container">
 
                 <div class="h2">ЛУЧШИЕ МЕЖКОМНАТНЫЕ ДВЕРИ  </div>
@@ -872,76 +873,113 @@
 
 
     <!-- /.es13_bg -->
-    <section class="b-karusel2 template slider_doors_wrapper" style="display: none;">
-        <script src="js/jquery.roundabout.min.js"></script>
-        <div class="wrapper">
-            <h5>Лучшие межкомнатные двери</h5>
+<!--slider_doors_wrapper_11.php-->
+<section class="b-karusel2 template slider_doors_wrapper">
+    <div class="container">
 
-                    <div class="container" style="position:relative;">
+        <div class="h2">ЛУЧШИЕ МЕЖКОМНАТНЫЕ ДВЕРИ  </div>
 
-                        <div class="door_104">
-                            <div style="margin:0px 60px 0 60px;">
+            <section class=" slider_doors_js">
 
-                                    <ul class="container1 roundabout-holder" style="padding: 0px; position: relative;">
-                                       
-                                        
-                                        <li class="door_0 roundabout-moveable-item" >
-                                            <a href="#"><img class="roundabout_image" src="img/big-doors-3.png"></a>
-                                        </li>
-                                        <li class="door_0 roundabout-moveable-item" >
-                                            <a href="#"><img class="roundabout_image" src="img/big-doors-3.png"></a>
-                                        </li>
-                                        <li class="door_0 roundabout-moveable-item" >
-                                            <a href="#"><img class="roundabout_image" src="img/big-doors-3.png"></a>
-                                        </li>
-                                        <li class="door_0 roundabout-moveable-item roundabout-in-focus" >
-                                            <a href="#"><img class="roundabout_image" src="img/big-doors-3.png"></a>
-                                        </li>
-                                        <li class="door_0 roundabout-moveable-item" >
-                                            <a href="#"><img class="roundabout_image" src="img/big-doors-3.png"></a>
-                                        </li>
-                                        <li class="door_0 roundabout-moveable-item" >
-                                            <a href="#"><img class="roundabout_image" src="img/big-doors-3.png"></a>
-                                        </li>
-                                        
-                                        <li class="door_0 roundabout-moveable-item roundabout-in-focus" >
-                                            <a href="#"><img class="roundabout_image" src="img/big-doors-3.png"></a>
-                                        </li>
-                                        <li class="door_0 roundabout-moveable-item" >
-                                            <a href="#"><img class="roundabout_image" src="img/big-doors-3.png"></a>
-                                        </li>
-                                        
-                                </ul>
-                            </div>
-                            <p class="door_101">
-                                <a href="#" id="previous11" style="float:left;"></a>
-                                <a href="#" id="next11" style="float:right;"></a>
-                            </p>
+
+                <div >
+                    <div class="item-rewiews">
+                        <div class="box1">
+                            <img src="img/door_5.png">
+
+                            <div class="red-button">ВЫГОДНО  </div>
                         </div>
-                        <!--<div style="margin: 0px auto 50px; text-align: center;">
-                            <button data-toggle="modal" data-target="#kupitDeshevle-katalog" class="red-button js-fancy door-call_want-cheaper-link">купить двери</button>
-                        </div>-->
+
+                    </div>
+                </div>
+                <div >
+                    <div class="item-rewiews">
+                        <div class="box1">
+                            <img src="img/door_5.png">
+
+                            <div class="red-button">ВЫГОДНО  </div>
+                        </div>
+
                     </div>
 
+                </div>
+                <div >
+                    <div class="item-rewiews">
+                        <div class="box1">
+                            <img src="img/door_5.png">
+
+                            <div class="red-button">ВЫГОДНО  </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div >
+                    <div class="item-rewiews">
+                        <div class="box1">
+                            <img src="img/door_5.png">
+
+                            <div class="red-button">ВЫГОДНО  </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div >
+                    <div class="item-rewiews">
+                        <div class="box1">
+                            <img src="img/door_5.png">
+
+                            <div class="red-button">ВЫГОДНО  </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div >
+                    <div class="item-rewiews">
+                        <div class="box1">
+                            <img src="img/door_5.png">
+
+                            <div class="red-button">ВЫГОДНО  </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <div class="flex">
+
+                <button data-toggle="modal" data-target="#kupitDeshevle" class="red-button" type="submit">КУПИТЬ ДВЕРИ</button>
+
+            </div>
+        </div>   
+
+        <script type="text/javascript">
+        
+            $(document).ready(function(){
+                $(".slider_doors_js").slick({
+
+                    dots: false,
+                    arrows: true,
+                    infinite: true,
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                    responsive: [
+                        {
+                        breakpoint: 1200,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                            }
+                        }
+                    ]
+                });
+            });
 
 
-
-                    <script type="text/javascript">
-                        jQuery(document).ready(function($) {
-
-                            $('.container1').roundabout({
-                                minScale: 0.4,
-                                duration: 400,
-                                minZ: 80,
-                                btnNext: '#next11',
-                                btnPrev: '#previous11',
-                            });
-
-                        });
-                    </script>
-
-         </div>
-    </section>
+          </script>
+</section>
    
 
     <!--Главный блок вычислятор-->
@@ -3418,10 +3456,9 @@
 <![endif]-->
 
 
-        <script src="js/jquery-migrate-1.2.1.min.js"></script>
+        
 
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.easing-1.3.js"></script>
 
         <script>
             //Работа с ползунком на туч устройствах
