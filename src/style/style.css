@@ -813,6 +813,11 @@ table {
   }
 }
 
+.top_menu {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .top_menu.navbar-default {
   margin-top: 0;
   background: -webkit-gradient(linear, left top, left bottom, from(#FFC93C), to(#F2AD27));
@@ -8319,14 +8324,13 @@ input::-webkit-input-placeholder {
 
 .es1_doors.es1::before {
   content: "";
-  background: -webkit-gradient(linear, left top, right top, color-stop(80.7%, #FFFFFF), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(90deg, #FFFFFF 80.7%, rgba(255, 255, 255, 0) 100%);
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 40vw;
-  z-index: 1;
+  /*background: linear-gradient(90deg, #FFFFFF 80.7%, rgba(255, 255, 255, 0) 100%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 40vw;
+        z-index: 1;*/
 }
 
 .es1_doors.es1::after {

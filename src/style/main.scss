@@ -1,10 +1,5 @@
 /* main.scss */
 
 
-.wrap-geo{
-    background-image: url(../img/shar-t1.png);
-    background-repeat: no-repeat;
-    overflow: hidden;
-
-}
+@import "main/header/header";
 @import "main/es1_doors__1";
