@@ -309,10 +309,6 @@ button {
 }
 
 @media only screen and (max-width: 1200px) {
-  /* line 39, ../../sass/blocks/top_block/_top_block.sass */
-  .top_block {
-    margin-top: 10px;
-  }
   /* line 41, ../../sass/blocks/top_block/_top_block.sass */
   .top_block__slogon {
     font-size: 20px;
@@ -1171,7 +1167,7 @@ span.red-button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 5px 0;
+  padding: 0;
 }
 
 /* line 11, ../../sass/blocks/b-top__zamer/_b-top__zamer.sass */

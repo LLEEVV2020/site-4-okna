@@ -1,3 +1,7 @@
 npm install --save-dev
 npm prune --save-dev
 npm run watch
+
+
+<meta charset="UTF-8">
+utf-8

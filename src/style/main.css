@@ -1,10 +1,23 @@
 /* main.scss */
 .top_block__logo {
   z-index: 1;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
+}
+
+.top_block__logo span {
+  margin-left: 4px;
 }
 
 .wrap-geo {
-  overflow: hidden;
   position: relative;
 }
 
@@ -12,12 +25,50 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 65%;
+  width: 60%;
   height: 100%;
   background-image: url(../img/shar-t1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: 0%;
+  background-position-y: 50%;
+  background-position-x: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media only screen and (max-width: 992px) {
+  .wrap-geo .geo-cont {
+    width: 99%;
+  }
+}
+
+.wrap-geo .geo-cont .geo-cont-wrap {
+  padding-top: 282px;
+  width: 220px;
+  margin-right: 3vw;
+}
+
+@media only screen and (max-width: 1800px) {
+  .wrap-geo .geo-cont .geo-cont-wrap {
+    margin-right: 1vw;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .wrap-geo .geo-cont .geo-cont-wrap {
+    margin-right: -1vw;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .wrap-geo .geo-cont .geo-cont-wrap {
+    padding-top: 148px;
+    margin-right: 9vw;
+  }
 }
 
 .wrap-geo .geo-cont .geo-item1 {
@@ -26,10 +77,146 @@
   height: 110px;
 }
 
+@media only screen and (max-width: 767px) {
+  .wrap-geo .geo-cont .geo-item1 {
+    display: none;
+  }
+}
+
 .wrap-geo .geo-cont .geo-item2 {
   background-image: url(../img/shar-2kryg.png);
   width: 165px;
   height: 165px;
+  margin-top: 33px;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 992px) {
+  .wrap-geo .geo-cont .geo-item2 {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wrap-geo .geo-cont .geo-item2 {
+    display: none;
+  }
+}
+
+.wrap-geo .es1_doors {
+  overflow: visible;
+}
+
+.wrap-geo .b-top__zamer {
+  position: absolute;
+  bottom: -63px;
+  right: -5px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 992px) {
+  .wrap-geo .b-top__zamer {
+    bottom: 163px;
+    right: 49px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wrap-geo .b-top__zamer {
+    position: static;
+    margin-bottom: 0px;
+    margin: 21px auto 0;
+  }
+}
+
+.wrap-geo .b-top__zamer .b-top__zamer_ruler {
+  background-image: url(../img/kalcylator.png);
+  width: 63px;
+  height: 75px;
+  margin-left: 9px;
+  margin-top: -4px;
+}
+
+.wrap-geo .b-top__zamer .b-top__zamer_txt {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.wrap-geo .b-top__zamer .b-top__zamer_txt span {
+  font-size: 28px;
+  line-height: 34px;
+}
+
+@media only screen and (max-width: 767px) {
+  .wrap-geo .b-top__zamer .b-top__zamer_txt span {
+    font-size: 25px;
+    line-height: 26px;
+  }
+}
+
+.wrap-geo .skidka-7day-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-width: 767px) {
+  .wrap-geo .skidka-7day-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.wrap-geo .skidka-7day-wrapper .skidka-7day {
+  background-repeat: no-repeat;
+  background-image: url(../img/skidka-7day-bg.png);
+  width: 246px;
+  height: 65px;
+  font-weight: bold;
+  color: #000000;
+  padding-left: 21px;
+}
+
+@media only screen and (max-width: 767px) {
+  .wrap-geo .skidka-7day-wrapper .skidka-7day {
+    width: 230px;
+  }
+}
+
+.wrap-geo .skidka-7day-wrapper .skidka-7day div {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+@media only screen and (max-width: 767px) {
+  .wrap-geo .skidka-7day-wrapper .skidka-7day div {
+    font-size: 32px;
+    line-height: 41px;
+  }
+}
+
+.wrap-geo .skidka-7day-wrapper .skidka-7day p {
+  font-size: 18.5px;
+  line-height: 1;
+}
+
+.wrap-geo .skidka-7day-wrapper > p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 144px;
+  line-height: 0.71;
+  -webkit-transform: translateX(-52px);
+          transform: translateX(-52px);
+}
+
+@media only screen and (max-width: 767px) {
+  .wrap-geo .skidka-7day-wrapper > p {
+    font-size: 100px;
+    -webkit-transform: translateX(-41px);
+            transform: translateX(-41px);
+  }
 }
 
 .wrap-geo.shar-t1 h1 {
@@ -39,5 +226,33 @@
   margin-top: 19px;
   margin-bottom: 38px;
   color: #FFFFFF;
+}
+
+@media only screen and (max-width: 767px) {
+  .wrap-geo.shar-t1 h1 {
+    font-size: 41px;
+    line-height: 50px;
+    margin-bottom: 11px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wrap-geo.shar-t1 .es1-menu-wrapper {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wrap-geo.shar-t1 .flex-item {
+    width: 280px;
+    margin: 5px auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wrap-geo.shar-t1 .b-top__zamer {
+    width: 342px;
+    height: 70px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -287,9 +287,7 @@ line-height: 29px;
 }
 
 @media only screen and (max-width: 1200px) {
-  /* line 39, ../../sass/blocks/top_block/_top_block.sass */
-  .top_block {
-    margin-top: 10px; }
+
 
   /* line 41, ../../sass/blocks/top_block/_top_block.sass */
   .top_block__slogon {
@@ -1029,7 +1027,7 @@ span.red-button {
   float: right; 
   display: flex;
   align-items: center;
-  padding: 5px 0;
+  padding: 0;
 }
 
 /* line 11, ../../sass/blocks/b-top__zamer/_b-top__zamer.sass */

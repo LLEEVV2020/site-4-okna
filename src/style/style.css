@@ -758,8 +758,10 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 10px;
+  padding-top: 10px;
   margin-bottom: 8px;
+  position: relative;
+  z-index: 1;
 }
 
 /*.top_block__item{
@@ -780,8 +782,8 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 
 .center-img img:first-child {
@@ -8375,7 +8377,7 @@ input::-webkit-input-placeholder {
   margin-bottom: 20px;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #000000;
+  color: #fff;
 }
 
 .es1_doors.es1 .flex-item img {
