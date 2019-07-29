@@ -83,7 +83,8 @@
         "site/dveri/vhodie-dveri/_es1_vhodnie_dveri.scss",
         "site/dveri/razdviznie-okna/_razdviznie-okna.scss",
         "site/dveri/rassr_dveri/_rassr_dveri.scss",
-        "site/dveri/finishing_dveri/_finishing_dveri.scss"
+        "site/dveri/finishing_dveri/_finishing_dveri.scss",
+        "site/okna/main/_win-inst.sass"
     ],
     "names": [],
     "file": "style.css"
