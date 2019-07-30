@@ -1,0 +1,29 @@
+.win-profil{
+    background: #EDEDED;
+
+    .h3{
+        background-image: url("../img/kyp-prof-bg.png");
+        width: 166px;
+        height: 53px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 13px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1px;
+        margin-bottom: 0;
+    }
+    .flex-wrap{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .item{
+            flex: 0 0 30%;
+        }
+    }
+}

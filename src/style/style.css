@@ -9351,4 +9351,141 @@ input::-webkit-input-placeholder {
 .finishing_dveri.es1.block-action .es1__pict {
   display: none;
 }
+
+.win-inst {
+  margin-bottom: 40px;
+}
+
+.win-inst .wrap-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-right: 30%;
+  background-image: url(../img/bg-i.png);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  padding-top: 40px;
+  background-size: contain;
+}
+
+@media only screen and (max-width: 1200px) {
+  .win-inst .wrap-flex {
+    padding-right: 0;
+  }
+}
+
+.win-inst .h2 {
+  text-align: left;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.win-inst .h2 span {
+  color: #DD0053;
+}
+
+.win-inst .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ECECEC;
+  border-radius: 34px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 48%;
+          flex: 0 0 48%;
+  max-width: 362px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+  padding-right: 20px;
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+  .win-inst .item {
+    margin-right: 15px;
+    max-width: 332px;
+  }
+}
+
+.win-inst .item > div {
+  background-color: #FBC035;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 30px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 68px;
+          flex: 0 0 68px;
+}
+
+.win-inst .item > div img {
+  height: 60px;
+  width: 60px;
+}
+
+.win-inst .item p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.win-profil {
+  background: #EDEDED;
+}
+
+.win-profil .h3 {
+  background-image: url("../img/kyp-prof-bg.png");
+  width: 166px;
+  height: 53px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 13px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1px;
+  margin-bottom: 0;
+}
+
+.win-profil .flex-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.win-profil .flex-wrap .item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+}
 /*# sourceMappingURL=style.css.map */
