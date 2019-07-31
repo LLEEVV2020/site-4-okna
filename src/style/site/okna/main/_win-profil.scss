@@ -1,6 +1,8 @@
 .win-profil{
     background: #EDEDED;
-
+    padding-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 5px;
     .h3{
         background-image: url("../img/kyp-prof-bg.png");
         width: 166px;
@@ -23,7 +25,28 @@
         flex-wrap: wrap;
         justify-content: center;
         .item{
-            flex: 0 0 30%;
+            //flex: 0 0 30%;
+            flex: 0 0 363px;
+            max-width: 363px;
+            margin: 0 20px 40px;
+            text-align: center;
+            p{
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+                margin-top: 12px;
+                color: #000000;
+                span{
+                    font-weight: bold;
+                    font-size: 32px;
+                    line-height: 39px;
+
+                    color: #E21F69;
+                }
+            }
+            .star{
+                margin-top: 15px;
+            }
         }
     }
 }

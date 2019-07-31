@@ -9356,6 +9356,20 @@ input::-webkit-input-placeholder {
   margin-bottom: 40px;
 }
 
+.win-inst .container {
+  background-image: url(../img/bg-i.png);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-size: contain;
+}
+
+@media only screen and (max-width: 750px) {
+  .win-inst .container {
+    background-size: cover;
+    background-position-x: 30%;
+  }
+}
+
 .win-inst .wrap-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9363,11 +9377,7 @@ input::-webkit-input-placeholder {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-right: 30%;
-  background-image: url(../img/bg-i.png);
-  background-repeat: no-repeat;
-  background-position-x: 100%;
   padding-top: 40px;
-  background-size: contain;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -9414,6 +9424,15 @@ input::-webkit-input-placeholder {
   }
 }
 
+@media only screen and (max-width: 750px) {
+  .win-inst .item {
+    max-width: 370px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 370px;
+            flex: 0 0 370px;
+  }
+}
+
 .win-inst .item > div {
   background-color: #FBC035;
   width: 68px;
@@ -9447,6 +9466,9 @@ input::-webkit-input-placeholder {
 
 .win-profil {
   background: #EDEDED;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 5px;
 }
 
 .win-profil .h3 {
@@ -9485,7 +9507,29 @@ input::-webkit-input-placeholder {
 
 .win-profil .flex-wrap .item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 30%;
-          flex: 0 0 30%;
+      -ms-flex: 0 0 363px;
+          flex: 0 0 363px;
+  max-width: 363px;
+  margin: 0 20px 40px;
+  text-align: center;
+}
+
+.win-profil .flex-wrap .item p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 12px;
+  color: #000000;
+}
+
+.win-profil .flex-wrap .item p span {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  color: #E21F69;
+}
+
+.win-profil .flex-wrap .item .star {
+  margin-top: 15px;
 }
 /*# sourceMappingURL=style.css.map */
