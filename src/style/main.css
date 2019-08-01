@@ -17,11 +17,11 @@
   margin-left: 4px;
 }
 
-.wrap-geo {
+.shar-t1.wrap-geo {
   position: relative;
 }
 
-.wrap-geo .geo-cont {
+.shar-t1.wrap-geo .geo-cont {
   position: absolute;
   top: 0;
   left: 0;
@@ -41,49 +41,49 @@
 }
 
 @media only screen and (max-width: 992px) {
-  .wrap-geo .geo-cont {
+  .shar-t1.wrap-geo .geo-cont {
     width: 99%;
   }
 }
 
-.wrap-geo .geo-cont .geo-cont-wrap {
+.shar-t1.wrap-geo .geo-cont .geo-cont-wrap {
   padding-top: 282px;
   width: 220px;
   margin-right: 2vw;
 }
 
 @media only screen and (max-width: 1800px) {
-  .wrap-geo .geo-cont .geo-cont-wrap {
+  .shar-t1.wrap-geo .geo-cont .geo-cont-wrap {
     margin-right: 1vw;
   }
 }
 
 @media only screen and (max-width: 1500px) {
-  .wrap-geo .geo-cont .geo-cont-wrap {
+  .shar-t1.wrap-geo .geo-cont .geo-cont-wrap {
     margin-right: -1vw;
   }
 }
 
 @media only screen and (max-width: 992px) {
-  .wrap-geo .geo-cont .geo-cont-wrap {
+  .shar-t1.wrap-geo .geo-cont .geo-cont-wrap {
     padding-top: 148px;
     margin-right: 9vw;
   }
 }
 
-.wrap-geo .geo-cont .geo-item1 {
+.shar-t1.wrap-geo .geo-cont .geo-item1 {
   background-image: url(../img/shar-1kryg.png);
   width: 110px;
   height: 110px;
 }
 
 @media only screen and (max-width: 767px) {
-  .wrap-geo .geo-cont .geo-item1 {
+  .shar-t1.wrap-geo .geo-cont .geo-item1 {
     display: none;
   }
 }
 
-.wrap-geo .geo-cont .geo-item2 {
+.shar-t1.wrap-geo .geo-cont .geo-item2 {
   background-image: url(../img/shar-2kryg.png);
   width: 165px;
   height: 165px;
@@ -92,22 +92,22 @@
 }
 
 @media only screen and (max-width: 992px) {
-  .wrap-geo .geo-cont .geo-item2 {
+  .shar-t1.wrap-geo .geo-cont .geo-item2 {
     margin-top: 0px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .wrap-geo .geo-cont .geo-item2 {
+  .shar-t1.wrap-geo .geo-cont .geo-item2 {
     display: none;
   }
 }
 
-.wrap-geo .es1_doors {
+.shar-t1.wrap-geo .es1_doors {
   overflow: visible;
 }
 
-.wrap-geo .b-top__zamer {
+.shar-t1.wrap-geo .b-top__zamer {
   position: absolute;
   bottom: -63px;
   right: -5px;
@@ -115,21 +115,21 @@
 }
 
 @media only screen and (max-width: 992px) {
-  .wrap-geo .b-top__zamer {
+  .shar-t1.wrap-geo .b-top__zamer {
     bottom: 163px;
     right: 49px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .wrap-geo .b-top__zamer {
+  .shar-t1.wrap-geo .b-top__zamer {
     position: static;
     margin-bottom: 0px;
     margin: 21px auto 0;
   }
 }
 
-.wrap-geo .b-top__zamer .b-top__zamer_ruler {
+.shar-t1.wrap-geo .b-top__zamer .b-top__zamer_ruler {
   background-image: url(../img/kalcylator.png);
   width: 63px;
   height: 75px;
@@ -137,39 +137,39 @@
   margin-top: -4px;
 }
 
-.wrap-geo .b-top__zamer .b-top__zamer_txt {
+.shar-t1.wrap-geo .b-top__zamer .b-top__zamer_txt {
   font-size: 20px;
   line-height: 24px;
   font-weight: bold;
 }
 
-.wrap-geo .b-top__zamer .b-top__zamer_txt span {
+.shar-t1.wrap-geo .b-top__zamer .b-top__zamer_txt span {
   font-size: 28px;
   line-height: 34px;
 }
 
 @media only screen and (max-width: 767px) {
-  .wrap-geo .b-top__zamer .b-top__zamer_txt span {
+  .shar-t1.wrap-geo .b-top__zamer .b-top__zamer_txt span {
     font-size: 25px;
     line-height: 26px;
   }
 }
 
-.wrap-geo .skidka-7day-wrapper {
+.shar-t1.wrap-geo .skidka-7day-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 @media only screen and (max-width: 767px) {
-  .wrap-geo .skidka-7day-wrapper {
+  .shar-t1.wrap-geo .skidka-7day-wrapper {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
 }
 
-.wrap-geo .skidka-7day-wrapper .skidka-7day {
+.shar-t1.wrap-geo .skidka-7day-wrapper .skidka-7day {
   background-repeat: no-repeat;
   background-image: url(../img/skidka-7day-bg.png);
   width: 246px;
@@ -180,29 +180,29 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .wrap-geo .skidka-7day-wrapper .skidka-7day {
+  .shar-t1.wrap-geo .skidka-7day-wrapper .skidka-7day {
     width: 230px;
   }
 }
 
-.wrap-geo .skidka-7day-wrapper .skidka-7day div {
+.shar-t1.wrap-geo .skidka-7day-wrapper .skidka-7day div {
   font-size: 36px;
   line-height: 44px;
 }
 
 @media only screen and (max-width: 767px) {
-  .wrap-geo .skidka-7day-wrapper .skidka-7day div {
+  .shar-t1.wrap-geo .skidka-7day-wrapper .skidka-7day div {
     font-size: 32px;
     line-height: 41px;
   }
 }
 
-.wrap-geo .skidka-7day-wrapper .skidka-7day p {
+.shar-t1.wrap-geo .skidka-7day-wrapper .skidka-7day p {
   font-size: 18.5px;
   line-height: 1;
 }
 
-.wrap-geo .skidka-7day-wrapper > p {
+.shar-t1.wrap-geo .skidka-7day-wrapper > p {
   color: #fff;
   font-weight: bold;
   font-size: 144px;
@@ -212,7 +212,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .wrap-geo .skidka-7day-wrapper > p {
+  .shar-t1.wrap-geo .skidka-7day-wrapper > p {
     font-size: 100px;
     -webkit-transform: translateX(-41px);
             transform: translateX(-41px);

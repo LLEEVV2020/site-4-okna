@@ -423,6 +423,8 @@ button {
 .top_menu.navbar-default .navbar-nav > .active > a, .top_menu.navbar-default .navbar-nav > .active > a:focus, .top_menu.navbar-default .navbar-nav > .active > a:hover, .top_menu.navbar-default .navbar-nav > li > a:hover {
   color: #fff;
   background-color: #1C819E;
+  background: -webkit-gradient(linear, left top, left bottom, from(#DD0053), to(#A4164A));
+  background: linear-gradient(180deg, #DD0053 0%, #A4164A 100%);
 }
 
 /* line 36, ../../sass/blocks/top_menu/_top_menu.sass */

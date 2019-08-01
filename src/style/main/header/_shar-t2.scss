@@ -1,0 +1,147 @@
+.wrap-geo.shar-t2{
+
+    .es1_doors.es1{
+        background: url(../img/bg-temp-2.png) center top no-repeat;
+        background-size: cover;
+        overflow: visible;
+        &::after{
+            display: none;
+        }
+        h1{
+            font-weight: bold;
+            font-size: 45px;
+            line-height: 55px;
+            color: #FFFFFF;
+            padding-bottom: 30px;
+            span{
+                font-size: 72px;
+                line-height: 78px;
+                color: #FBC035;
+            }
+        }
+
+        .skidka-7day-wrapper{
+            display: flex;
+            @media only screen and (max-width: 767px){
+                justify-content: center;
+            }
+            
+    
+            .skidka-7day{
+                background-repeat: no-repeat;
+                background-image: url(../img/skidka-7day-bg.png);
+                width: 246px;
+                height: 65px;
+                font-weight: bold;
+                color: #000000;
+                padding-left: 21px;
+                @media only screen and (max-width: 767px){
+                    width: 230px;
+                }
+                div{
+                    font-size: 36px;
+                    line-height: 44px;
+                    @media only screen and (max-width: 767px){
+                        font-size: 32px;
+                        line-height: 41px;
+                    }
+                }
+                p{
+                    font-size: 18.5px;
+                    line-height: 1;
+                }
+            }
+            & > p{
+                color: #000;
+                font-weight: bold;
+                font-size: 144px;
+                line-height: 0.71;
+                transform: translateX(-52px);
+                @media only screen and (max-width: 767px){
+                    font-size: 100px;
+    
+                    transform: translateX(-41px);
+                }
+            }
+        }
+        .b-top__zamer{
+            position: absolute;
+            bottom: -63px;
+            right: -5px;
+            color: #fff;
+            @media only screen and (max-width: 992px) {
+                bottom: 163px;
+                right: 49px;
+            }
+            @media only screen and (max-width: 767px){
+                position: static;
+                margin-bottom: 0px;
+                margin: 21px auto 0;
+            }
+            .b-top__zamer_ruler{
+                background-image: url(../img/kalcylator.png);
+                width: 63px;
+                height: 75px;
+                margin-left: 9px;
+                margin-top: -4px;
+            }
+            .b-top__zamer_txt{
+                span{
+                    font-size: 28px;
+                    line-height: 34px;
+                    @media only screen and (max-width: 767px){
+                        font-size: 25px;
+                        line-height: 26px;
+                    }
+                }
+                font-size: 20px;
+                line-height: 24px;
+                
+                font-weight: bold;
+            }
+        }
+        
+        .b-top__zamer.block-calculate{
+            position: static;
+            background: linear-gradient(180deg, #DD0053 0%, #A4164A 100%);
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+            margin-bottom: 70px;
+            .b-top__zamer_txt{
+                color: #fff;
+            }
+        }
+        .b-top__zamer.block-ruletki{
+            background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+            .b-top__zamer_ruler{
+                width: 96px;
+                height: 78px;
+                background: url(../img/es1_ruler.png) no-repeat center center;
+                margin-left: -14px;
+                margin-top: auto;
+            }
+            .b-top__zamer_txt{
+                color: #000;
+            }
+        }
+    
+    }
+
+
+    .geo-cont {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 712px;
+        min-height: 551px;
+        width: 51%;
+        height: 69%;
+        background-image: url(../img/shar-t2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 100%;
+        background-position-x: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
