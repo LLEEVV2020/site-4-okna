@@ -74,3 +74,12 @@
     }
 
 }
+.bg-temp-1{
+    background-image: url(../img/i-bg-temp-1.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-color: #c9edfd;
+    .container{
+        background-image: none;
+    }
+}
