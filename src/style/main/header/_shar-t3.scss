@@ -4,6 +4,9 @@
     }
     .top_block__tel, .top_block__vamperez{
         color: #fff;
+        span::before{
+            background-color: #fff;
+        }
     }
     .es1_doors.es1{
         background: url(../img/bg-temp-3.png) center top no-repeat;

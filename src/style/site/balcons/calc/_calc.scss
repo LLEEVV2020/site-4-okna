@@ -120,70 +120,69 @@
     }
     .tabletipokna {
         display: flex;
-            justify-content: space-between;
+            justify-content: flex-start;
         align-items: center;
         margin-bottom: 40px;
-        & > div{
+        
+        .tip-baase{
             background-repeat: no-repeat;
             background-size: cover;
+            margin-right: 2vw;
         }
     }
     
     .tipbalk1{
         background-image: url(../img/calc/balk/b1.png);
-        width: 100px;
-        height: 63px;
+        width: 47px;
+        height: 74px;
         &.okact, &:hover{
             background-image: url(../img/calc/balk/b1_act.png);
         }
     }
     .tipbalk2{
         background-image: url(../img/calc/balk/b2.png);
-        width: 109px;
-        height: 68px;
+        width: 47px;
+        height: 74px;
         &.okact, &:hover{
             background-image: url(../img/calc/balk/b2_act.png);
         }
     }
     .tipbalk3{
         background-image: url(../img/calc/balk/b3.png);
-        width: 118px;
-        height: 72px;
-        width: 115px;
-        height: 70px;
+        width: 47px;
+        height: 74px;
         &.okact, &:hover{
             background-image: url(../img/calc/balk/b3_act.png);
         }
     }
     .tipbalk4{
         background-image: url(../img/calc/balk/b4.png);
-        width: 139px;
-        height: 68px;
+        width: 84px;
+        height: 74px;
         &.okact, &:hover{
             background-image: url(../img/calc/balk/b4_act.png);
         }
     }
     .tipbalk5{
         background-image: url(../img/calc/balk/b5.png);
-        width: 152px;
-        height: 68px;
+        width: 84px;
+        height: 74px;
         &.okact, &:hover{
             background-image: url(../img/calc/balk/b5_act.png);
         }
     }
     .tipbalk6{
         background-image: url(../img/calc/balk/b6.png);
-        //width: 145px;
-        width: 151px;
-        height: 68px;
+        width: 84px;
+        height: 74px;
         &.okact, &:hover{
             background-image: url(../img/calc/balk/b6_act.png);
         }
     }
     .tipbalk7{
         background-image: url(../img/calc/balk/b7.png);
-        width: 153px;
-        height: 68px;
+        width: 84px;
+        height: 74px;
         &.okact, &:hover{
             background-image: url(../img/calc/balk/b7_act.png);
         }
@@ -332,6 +331,16 @@
         padding-top: 19px;
         padding-right: 20px;
         transform: translate(6px, 10px);
+        &::before {
+            content: "";
+            position: absolute;
+            top: -88px;
+            left: -180px;
+            width: 226px;
+            height: 188.58px;
+            transform: rotate(-6.27deg);
+            background-image: url(../img/verevocka.png);
+        }
         .tsena_base_cost{
             font-size: 96px;
             line-height: 97px;

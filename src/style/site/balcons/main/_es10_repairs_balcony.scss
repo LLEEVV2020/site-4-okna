@@ -19,12 +19,19 @@
             display: flex;
             align-items: center;
             margin-bottom: 14px;
+            @media only screen and (max-width: 500px){
+                flex-direction: column;
+            }
+
             &::before {
                 content: "";
                 background:  url(../img/accept-circular-button-outline.png) center no-repeat;
                 width: 20px;
                 height: 20px;
                 margin-right: 20px;
+                @media only screen and (max-width: 500px){
+                    margin-right: 0;
+                }
             }
             &> div{
                 font-size: 24px;
@@ -39,11 +46,25 @@
                 font-weight: bold;
                 color: #DD0053;
                 margin-left: 50px;
+                @media only screen and (max-width: 767px){
+                    min-width: 90px;
+                    margin-left: 0px;
+                    text-align: right;
+                }
             }
             .price{
                 margin-left: 10px;
                 width: 110px;
                 text-align: right;
+                @media only screen and (max-width: 767px){
+                    margin-left: 0;
+                    min-width: 95px;
+                }
+            }
+            .discount, .price{
+                @media only screen and (max-width: 500px){
+                    text-align: center;
+                }
             }
             
         }

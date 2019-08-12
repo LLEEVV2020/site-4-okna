@@ -1,0 +1,89 @@
+.template2-okna2{
+    padding-bottom: 20px;
+    .flex-block{
+        justify-content: space-between;
+        margin-top: 20px;
+        @media only screen and (max-width: 1200px) {
+            justify-content: center;
+        }
+    }
+    
+    .flex-item {
+        max-width: 362px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        @media only screen and (max-width: 1200px) {
+            margin-left: 10px ;
+            margin-right: 10px;
+        }
+        .red-button{
+            max-width: auto;
+            width: 100%;
+            justify-content: space-around;
+            justify-content: space-evenly;
+            background: linear-gradient(180deg, #015A76 0%, #1B809D 76.19%);
+            max-width: 294px;
+            margin: 14px auto 0;
+            height: 50px;
+            b{
+                color: #FFC93C;
+                font-size: 32px;
+line-height: 39px;
+            }
+            &::before{
+                border-color: #015A76 transparent transparent transparent;
+                top: -13px;
+                border-width: 18px 12px 0 12px;
+                transform: translateX(-50%) rotate(180deg);
+            }
+            
+            span{
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+                position: relative;
+                margin-left: 33px;
+                &::after {
+
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    width: 100%;
+                    z-index: 2;
+                    border-bottom: 2px solid #DD0053;
+                    -webkit-transform: translate(0%, -50%) rotate(9.65deg);
+                    transform: translate(0%, -50%) rotate(9.65deg);
+                    height: 1px;
+                }
+                &::before{
+                    content: "от";
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #FFFFFF;
+                    position: absolute;
+                    top: 0;
+                    left: -33px;
+                    text-transform: initial;
+                }
+            }
+            
+        }
+        p{
+            height: 80px;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            //margin-top: 40px;
+            background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+border-radius: 40px 40px 0px 0px;
+        }
+    }
+}
