@@ -1,0 +1,61 @@
+.shkafi-na-balcone-dop{
+    .tabs{
+        & > p{
+            margin-top: 20px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+
+            color: #000000;
+
+        }
+    }
+    strong{
+        font-weight: bold; 
+    }  
+    .block-img{
+        position: relative;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        padding: 9px;
+        .skidka-7day-wrapper{
+            position: absolute;
+            bottom: 15px;
+            right: 10px;
+            display: flex;
+            transform: translateX(52px);
+            @media only screen and (max-width: 992px){
+                top: 15px;
+                left: 10px;
+            }
+            & > p {
+                color: #fff;
+                font-weight: bold;
+                font-size: 144px;
+                line-height: 0.71;
+                transform: translateX(-52px);
+                @media only screen and (max-width: 992px){
+                    color: #000000;
+                    transform: translateX(-44px);
+                    font-size: 100px;
+                }
+            }
+            .skidka-7day {
+                background-repeat: no-repeat;
+                background-image: url(../img/skidka-7day-bg.png);
+                width: 246px;
+                height: 65px;
+                font-weight: bold;
+                color: #000000;
+                padding-left: 21px;
+                div {
+                    font-size: 36px;
+                    line-height: 44px;
+                }
+            }
+        }
+    }
+    
+}
