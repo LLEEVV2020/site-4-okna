@@ -60,7 +60,7 @@
                 @media only screen and (max-width: 767px){
                     font-size: 100px;
     
-                    transform: translateX(-41px);
+                    transform: translateX(-25px);
                 }
             }
         }
@@ -70,13 +70,15 @@
             right: -5px;
             color: #fff;
             @media only screen and (max-width: 992px) {
-                bottom: 163px;
-                right: 49px;
+                bottom: 263px;
+                right: 0px;
             }
             @media only screen and (max-width: 767px){
                 position: static;
                 margin-bottom: 0px;
                 margin: 21px auto 0;
+                bottom: 163px;
+                right: 49px;
             }
             .b-top__zamer_ruler{
                 background-image: url(../img/kalcylator.png);

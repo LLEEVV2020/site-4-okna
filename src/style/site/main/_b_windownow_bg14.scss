@@ -17,6 +17,9 @@
 
     .b_windownow_text{
         margin-top: 13px;
+        @media only screen and (max-width: 767px) {
+            margin-top: 0;
+        }
         p{
             font-weight: 500;
             font-weight: bold;
@@ -25,6 +28,9 @@
             text-transform: uppercase;
             margin-bottom: 22px;
             color: #000000;
+            @media only screen and (max-width: 767px) {
+                text-align: center;
+            }
         }
     }
     .b_windownow_proc,
@@ -38,6 +44,9 @@
         margin-right: 5vw;
     }
     .b_windownow_proc{
+        @media only screen and (max-width: 767px) {
+            margin-right: 0;   
+        }
         @media only screen and (max-width: 530px) {
             margin-right: 0;   
         }
@@ -54,6 +63,10 @@
     }
     .flex-block{
         display: flex;
+        @media only screen and (max-width: 767px) {
+            flex-direction: column;
+            align-items: center;
+        }
         @media only screen and (max-width: 530px) {
             flex-direction: column;
             align-items: center;

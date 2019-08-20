@@ -82,7 +82,13 @@
             grid-column-start: 1;
             grid-column-end: 3;
             z-index: 1;
-            
+            img{
+                width: 192px;
+                height: 192px;
+                object-fit: cover;
+                border-radius: 50%;
+                border: 3px solid #fff;
+            }
         }
         .box1, .box1 img{
             margin: 0 auto;

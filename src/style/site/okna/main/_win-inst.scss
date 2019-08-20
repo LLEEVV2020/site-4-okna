@@ -10,6 +10,9 @@
             background-size: cover;
             background-position-x: 30%;
         }
+        @media only screen and (max-width: 400px){
+            background-image: none;
+        }
     }
     .wrap-flex{
         display: flex;
@@ -28,6 +31,9 @@
         flex: 0 0 100%;
         max-width: 100%;
         margin-bottom: 40px;
+        @media only screen and (max-width: 400px){
+            text-align: center;
+        }
         span{
             color: #DD0053;
         }
@@ -51,6 +57,14 @@
             max-width: 370px;
             flex: 0 0 370px;
         }
+        @media only screen and (max-width: 400px){
+            flex-direction: column;
+            flex-basis: 100%;
+            max-width: 100%;
+            margin-right: 0;
+            padding-right: 0;
+            background-color: #fff;
+        }
         & > div{
             background-color: #FBC035;
             width: 68px;
@@ -61,6 +75,9 @@
             align-items: center;
             margin-right: 30px;
             flex: 0 0 68px;
+            @media only screen and (max-width: 400px){
+                margin-right: 0;
+            }
             img{
                 height: 60px;
                 width: 60px;
@@ -70,6 +87,9 @@
             font-weight: 500;
             font-size: 24px;
             line-height: 29px;
+            @media only screen and (max-width: 400px){
+                text-align: center;
+            }
         }
     }
 

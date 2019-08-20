@@ -21,6 +21,15 @@
     }
     .es17_blockbg{
         margin-bottom: 33px;
+        @media only screen and (max-width: 992px){
+            width: 100%;
+            text-align: center;
+            .form-group{
+                margin-right: auto;
+                margin-left: auto;
+                display: block;
+            }
+        }
     }
     .es17_girl{
         height: 470px;

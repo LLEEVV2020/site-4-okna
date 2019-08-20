@@ -1,4 +1,7 @@
 .es2_balcons{
+    @media only screen and (max-width: 767px){
+        margin-bottom: 40px;
+    }
     .h2{
         font-weight: bold;
         font-size: 32px;
