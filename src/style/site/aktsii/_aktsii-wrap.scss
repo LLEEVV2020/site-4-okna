@@ -43,8 +43,9 @@
                 margin-top: 0;
                 @media (max-width: 767px){
                     justify-content: center;
+                    text-align: center;
                 }
-
+                
                 i{
                     border-radius: 50%;
                     width: 68px;
@@ -75,7 +76,9 @@
                     & > span{
                         color: #DD0053;
                     }
-                    
+                    b{
+                        white-space: nowrap;
+                    }
                 }
             }
             p{

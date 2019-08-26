@@ -45,16 +45,32 @@ line-height: 29px;
             padding-left: 20px;
             padding-right: 20px;
             padding-bottom: 20px;
+            @media only screen and (max-width: 540px){
+                flex-direction: column;
+            }
+           
             p{
                 font-weight: 500;
                 font-size: 18px;
                 line-height: 22px;
+                @media only screen and (max-width: 540px){
+                    margin-bottom: 15px;
+                }
+               
+            }
+        }
+        img{
+            @media only screen and (max-width: 540px){
+                width: 100%;
             }
         }
     }
 
     .block-price {
         margin-bottom: 25px;
+        @media only screen and (max-width: 540px){
+            margin-bottom: 5px;
+        }
         .price{
     font-size: 64px;
     line-height: 78px;
@@ -67,6 +83,9 @@ line-height: 29px;
             padding-left: 80px;
             padding-right: 7px;
             padding-top: 11px;
+            @media only screen and (max-width: 540px){
+                display: none;
+            }
             span{
                 font-weight: bold;
 font-size: 14px;
@@ -89,9 +108,17 @@ line-height: 44px;
         justify-content: center;
         li + li{
             margin-left: 21px;
+            @media only screen and (max-width: 540px){
+                margin-left: 0 !important;
+                margin-top: 10px;
+            }
         }
+        
         @media only screen and (max-width: 1201px){
             justify-content: center;
+        }
+        @media only screen and (max-width: 540px){
+            flex-direction: column;
         }
         li{
             font-weight: bold;
