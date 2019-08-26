@@ -46,9 +46,15 @@
     .tsvet_ramy {
         width: 558px;
         margin-bottom:  40px;
+        @media only screen and (max-width: 600px) {
+            width: 100%;
+        }
     }
     .tsvet_ruch {
         width: 558px;
+        @media only screen and (max-width: 600px) {
+            width: 100%;
+        }
     }
     .tsvet_ramy + .tsvet_ruch{
         margin-bottom: 20px;
@@ -102,6 +108,12 @@
         text-transform: uppercase;
         margin-bottom: 40px;
         position: relative;
+        @media only screen and (max-width: 600px) {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 25px;
+        }
+        
         &::before{
             content: "";
             position: absolute;
@@ -201,6 +213,16 @@
             }
         }
       }
+      @media only screen and (max-width: 600px) {
+        .flex-row{
+            flex-wrap: wrap;
+            & > div{
+                margin-right: 0;
+                width: 33.333%;
+                margin-top: 8px;
+            }
+        }
+      }
   }
 
   
@@ -223,7 +245,10 @@
   
   .b-derevo_calc .container .tsvet_ramy {
     width: 590px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    @media only screen and (max-width: 600px) {
+        width: 100%;
+    }
   }
   
   .b-derevo_calc .container .tsvet_ramy .tsvet_ramy__txt {
