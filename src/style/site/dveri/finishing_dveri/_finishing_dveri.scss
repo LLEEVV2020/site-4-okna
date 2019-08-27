@@ -3,4 +3,10 @@
     .es1__pict{
         display: none;
     }
+    @media only screen and (max-width: 600px){
+        .es1__block .action-img img{
+            transform: none;
+            width: 100%;
+        }
+    }
 }
