@@ -1,5 +1,7 @@
 .wrap-geo.shar-t5{
-
+    @media only screen and (max-width: 500px){
+        background: #07627f;
+    }
     .es1_doors.es1{
         background: url(../img/shar-t5-bg.png) center top no-repeat;
         background-size: cover;
@@ -7,6 +9,10 @@
         @media only screen and (min-width: 1300px){
             
            background-position-y: center;
+        }
+        @media only screen and (max-width: 500px){
+            background: #07627f;
+            height: auto;
         }
         &::after{
             display: none;
@@ -52,7 +58,12 @@
             @media only screen and (max-width: 767px){
                 justify-content: center;
             }
-            
+            @media only screen and (max-width: 500px){
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                transform: translateX(0);
+            }
     
             .skidka-7day{
                 background-repeat: no-repeat;
@@ -65,6 +76,13 @@
                 @media only screen and (max-width: 767px){
                     width: 230px;
                 }
+                @media only screen and (max-width: 500px){
+                    width: auto;
+                    background: none;
+                    padding-left: 0;
+                    height: auto;
+                    color: #f4b12d;
+                }
                 div{
                     font-size: 36px;
                     line-height: 44px;
@@ -76,6 +94,9 @@
                 p{
                     font-size: 18.5px;
                     line-height: 1;
+                    @media only screen and (max-width: 500px){
+                        display: none;
+                    }
                 }
             }
             & > p{
@@ -88,6 +109,10 @@
                     font-size: 100px;
     
                     transform: translateX(-41px);
+                }
+                @media only screen and (max-width: 500px){
+                    color: #fff;
+                    transform: translateX(0);
                 }
             }
         }
@@ -106,6 +131,7 @@
                 margin-bottom: 0px;
                 margin: 21px auto 0;
             }
+            
             .b-top__zamer_ruler{
                 background-image: url(../img/kalcylator.png);
                 width: 63px;
@@ -165,7 +191,11 @@
                 color: #000;
             }
         }*/
-    
+        .b-top__zamer.block-ruletki{
+            @media only screen and (max-width: 500px){
+                display: none;
+            }
+        }
     }
 
 
@@ -184,5 +214,9 @@
         background-position-x: 100%;
         display: flex;
         justify-content: flex-end;
+        @media only screen and (max-width: 500px){
+            background: #07627f;
+            display: none;
+        }
     }
 }

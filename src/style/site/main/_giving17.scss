@@ -110,6 +110,15 @@
                 padding-left: 114px;
             }
         }
+        @media only screen and (max-width: 667px) {
+            display: flex;
+            flex-direction: column;
+            .box2{
+                padding-left: 21px;
+                flex: 1;
+                margin-top: 15px;
+            }
+        }
     }
 
     

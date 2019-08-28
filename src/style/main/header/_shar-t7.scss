@@ -1,5 +1,8 @@
 .wrap-geo.shar-t7{
     overflow: visible;
+    @media only screen and (max-width: 767px){
+        background: #07627f;
+    }
     .container, .es1__block{
         height: 100%;
     }
@@ -21,10 +24,15 @@
         height: 560px;
         background-position-y: 100%;
         @media only screen and (min-width: 1600px){
+            height: 700px;
+        }
+        @media only screen and (max-width: 1200px){
             height: 615px;
         }
         @media only screen and (max-width: 767px){
             background-position-x: 41%;
+            background: #07627f;
+            height: auto;
         }
         
 
@@ -66,6 +74,9 @@
     
             @media only screen and (max-width: 767px){
                 justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                transform: translateX(0);
             }
             .skidka-7day{
                 background-repeat: no-repeat;
@@ -76,7 +87,11 @@
                 color: #000000;
                 padding-left: 21px;
                 @media only screen and (max-width: 767px){
-                    width: 230px;
+                    width: auto;
+                    background: none;
+                    padding-left: 0;
+                    height: auto;
+                    color: #f4b12d;
                 }
                 div{
                     font-size: 36px;
@@ -89,6 +104,9 @@
                 p{
                     font-size: 18.5px;
                     line-height: 1;
+                    @media only screen and (max-width: 767px){
+                        display: none;
+                    }
                 }
             }
             & > p{
@@ -99,8 +117,8 @@
                 transform: translateX(-52px);
                 @media only screen and (max-width: 767px){
                     font-size: 100px;
-    
-                    transform: translateX(-41px);
+                    color: #fff;
+                    transform: translateX(0);
                 }
             }
         }
@@ -150,7 +168,7 @@
                 color: #000;
             }
             @media only screen and (max-width: 767px){
-                margin-right: 0;
+                //margin-right: 0;
             }
         }
         .b-top__zamer.block-ruletki{
@@ -213,5 +231,12 @@
         background-position-y: 100%;
         display: flex;
         justify-content: flex-end;
+        @media only screen and (min-width: 1200px){
+            min-height: 560px;
+        }
+        @media only screen and (max-width: 767px){
+            background: #07627f;
+        }
+        
     }
 }
