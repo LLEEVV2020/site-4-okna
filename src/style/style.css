@@ -1146,6 +1146,10 @@ table {
   display: none;
 }
 
+.menu-top-men-container {
+  width: 100%;
+}
+
 .red-pink-button {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
