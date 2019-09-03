@@ -10308,6 +10308,13 @@ input::-webkit-input-placeholder {
   padding-bottom: 30px;
 }
 
+@media only screen and (max-width: 450px) {
+  .wrap-geo.shar-t2 .es1_doors.es1 h1 {
+    font-size: 37px;
+    line-height: 49px;
+  }
+}
+
 .wrap-geo.shar-t2 .es1_doors.es1 h1 span {
   font-size: 72px;
   line-height: 78px;
