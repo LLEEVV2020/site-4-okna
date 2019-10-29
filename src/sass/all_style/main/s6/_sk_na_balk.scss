@@ -1,0 +1,216 @@
+
+.shkafi-na-balcone{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    .wrap-flex{
+        display: flex;
+        position: relative;
+        @media only screen and (max-width: 991px){
+            flex-wrap: wrap;
+        }
+        .zaglyshka-peredelat{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            @media only screen and (max-width: 500px) {
+                flex-wrap: wrap;
+                flex-direction: column;
+                position: relative;
+                display: flex; 
+            }
+        }
+        .text{
+            max-width: 360px;
+            width: 100%;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            margin-right: 33px;
+            @media only screen and (max-width: 991px){
+                max-width: 1000px;
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+        }
+        .block-img{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .b_windownow__btn{
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+        background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+        width: 334px;
+        height: 50px;
+        color: #000000;
+        @media only screen and (max-width: 500px) {
+            margin: 0 auto;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 98%;
+            font-size: 20px;
+            line-height: 1.1;
+        }
+
+    }
+
+    .tabs {
+        position: relative; /* Относительное позиционирование */
+       }
+       .tab{
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-around;
+           justify-content: space-evenly;
+
+       }
+        .tab-title {
+        display: inline-block; /* Выстраиваем по горизонтали */
+        cursor: pointer;
+       }
+       .tab input[type="radio"] { display: none; }
+       .tab-title {
+        background: #ccc; /* Цвет фона */
+        padding: 5px 10px; /* Поля вокруг текста */
+        font-size: 24px;
+        line-height: 29px;
+        background: #EDEDED;
+        font-weight: 500;
+        text-align: center;
+        border-radius: 20px;
+        width: 200px;
+        height: 40px;
+        margin-bottom: 20px;
+       }
+       .tab-content {
+        padding: 10px; /* Поля вокруг текста */
+        width: 100%; /* Ширина содержимого */
+        display: none; /* Прячем вкладку */
+        order: 1;
+       }
+       .tab :checked + .tab-title {
+        position: relative; /* Относительное позиционирование */
+        background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+        z-index: 1; /* Отображаем поверх содержимого */
+       }
+       .tab :checked + .tab-title + .tab-content {
+        display: block; /* Показываем активную вкладку */
+       }
+}
+
+.shkafi-na-balcone .wrap-flex .block-img img{
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 734px;
+    height: 452px;
+    @media only screen and (max-width: 600px) {
+        width: 100%;
+    }
+}
+
+
+  .zaglyshka-peredelat{
+    width: 426px;
+    height: 211px;
+    background-image: url(../img/zaglyshka-peredelat1.png);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    @media only screen and (max-width: 500px) {
+        width: 100%;
+        background: linear-gradient(180deg, #DD0053 0%, #A3003D 100%);
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    }
+  }
+  .item1-old,  .item2-new{
+    display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 75px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0 26px;
+    margin: 21px 0;
+  }
+  .item1-old{
+      position: relative;
+      padding-right: 22px;
+      width: 169px;
+  }
+  .item1-old::before{
+      content: "";
+    position: absolute;
+    top: 0;
+    right: -1px;
+    height: 100%;
+    width: 2px;
+    background-color: #fff;
+  }
+
+.zaglyshka-peredelat + .zaglyshka-peredelat{
+    opacity: 0.15;
+}
+  
+
+  .item1-old p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    margin-bottom: 2px;
+    color: #FFFFFF;
+  }
+  .item1-old div{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+
+    position: relative;
+
+    color: #FFFFFF;
+  }
+  .item1-old div::before{
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    width: 101%;
+    height: 2px;
+    background-color: #000;
+    -webkit-transform: rotate(8.5deg);
+       -ms-transform: rotate(8.5deg);
+           transform: rotate(8.5deg);
+  }
+  .item2-new p{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+  }
+  
+  .item2-new div{
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 45px;
+
+
+    color: #FBC035;
+  }

@@ -1,0 +1,270 @@
+.wrap-geo.shar-t4{
+    .top_block__logo{
+        color: #000000;
+        span{
+            @media only screen and (max-width: 705px){
+                color: #fff;
+            }
+        }
+    }
+    .top_block__tel, .top_block__vamperez{
+        color: #fff;
+        span::before{
+            background-color: #fff;
+        }
+    }
+    .es1_doors.es1{
+        //background: url(../img/bg-temp-4.png) center top no-repeat;
+        background-size: cover;
+        overflow: visible;
+        height: 46vw;
+        min-height: 548px;
+        background-position-y: 100%;
+        @media only screen and (min-width: 1600px){
+            height: 670px;
+            &::after{
+                background-position-y: center;
+                //background-size: contain;
+            }
+            
+        }
+        @media only screen and (max-width: 1200px){
+            overflow: hidden;
+        }
+        @media only screen and (max-width: 767px){
+            background-position-x: 41%;
+        }
+        
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-image: url(../img/es4_bg_dve.png);
+            background-position-x: right;
+            height: 100%;
+            width: 67vw;
+            background-size: cover;
+
+            @media only screen and (max-width: 1200px){
+                width: 75vw;
+            }
+            @media only screen and (max-width: 992px){
+                width: 85vw;
+            }
+
+        }
+        h1{
+            font-weight: bold;
+            font-size: 64px;
+line-height: 78px;
+            color: #fff;
+            padding-bottom: 30px;
+            text-align: right;
+            @media only screen and (max-width: 1200px){
+                font-size: 50px;
+                line-height: 49px;
+            }
+            @media only screen and (max-width: 992px){
+                
+                text-align: right;
+            }
+            @media only screen and (max-width: 767px){
+               // text-align: center;
+            }
+            @media only screen and (max-width: 500px){
+                order: 0;
+            }
+            span{
+                font-size: 72px;
+                line-height: 78px;
+                color: #FBC035;
+            }
+        }
+
+        .skidka-7day-wrapper{
+            display: flex;
+            justify-content: flex-end;
+            transform: translateX(73px);
+            margin-bottom: 7%;
+            @media only screen and (max-width: 1200px){
+                margin-bottom: 4%;
+                transform: translateX(44px);
+                
+            }
+            @media only screen and (max-width: 992px){
+                
+                
+                justify-content: flex-end;
+            }
+    
+            @media only screen and (max-width: 500px){
+                transform: translateX(0);
+                order: 2;
+            }
+            .skidka-7day{
+                background-repeat: no-repeat;
+                background-image: url(../img/skidka-7day-bg.png);
+                width: 246px;
+                height: 65px;
+                font-weight: bold;
+                color: #fff;
+                padding-left: 21px;
+                @media only screen and (max-width: 767px){
+                    width: 230px;
+                }
+                @media only screen and (max-width: 500px){
+                    background: linear-gradient(180deg, #FFC93C 0%, #F2AD27 100%);
+                    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+                    border-radius: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 100px;
+                    padding-bottom: 5px;
+                    padding-left: 0;
+                    padding-bottom: 5px;
+                    align-items: center;
+                }
+                div{
+                    font-size: 36px;
+                    line-height: 44px;
+                    color: #000;
+                    @media only screen and (max-width: 767px){
+                        font-size: 32px;
+                        line-height: 41px;
+                    }
+                }
+                p{
+                    font-size: 18.5px;
+                    line-height: 1;
+                }
+            }
+            & > p{
+                color: #fff;
+                font-weight: bold;
+                font-size: 144px;
+                line-height: 0.71;
+                transform: translateX(-52px);
+                @media only screen and (max-width: 1200px){
+                    font-size: 97px;
+                    transform: translateX(-42px);
+                }
+                @media only screen and (max-width: 767px){
+                    font-size: 100px;
+    
+                    transform: translateX(-41px);
+                }
+                @media only screen and (max-width: 500px){
+                    font-size: 43px;
+                    color: #000;
+                    position: absolute;
+                    top: 42px;
+                    right: 21px;
+                }
+            }
+        }
+        .b-top__zamer{
+            margin-left: auto;
+            
+            .b-top__zamer_ruler{
+                background-image: url(../img/kalcylator.png);
+                width: 63px;
+                height: 75px;
+                margin-left: 9px;
+                margin-top: -4px;
+            }
+            .b-top__zamer_txt{
+                span{
+                    font-size: 28px;
+                    line-height: 34px;
+                    @media only screen and (max-width: 767px){
+                        font-size: 25px;
+                        line-height: 26px;
+                    }
+                }
+                font-size: 20px;
+                line-height: 24px;
+                
+                font-weight: bold;
+            }
+        }
+        
+        .b-top__zamer.block-calculate{
+            position: static;
+            background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+            margin-bottom: 30px;
+            .b-top__zamer_txt{
+                color: #000;
+            }
+            @media only screen and (max-width: 767px){
+                margin-right: 0;
+            }
+        }
+        .b-top__zamer.block-ruletki{
+            background: linear-gradient(180deg, #E21F69 0%, #A3003D 100%);
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+            .b-top__zamer_ruler{
+                width: 96px;
+                height: 78px;
+                background: url(../img/es1_ruler.png) no-repeat center center;
+                margin-left: -14px;
+                margin-top: auto;
+            }
+            .b-top__zamer_txt{
+                color: #fff;
+            }
+            @media only screen and (max-width: 500px){
+                order: 1;
+            }
+        }
+
+        .wr-text-r{
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding-top: 32px;
+            @media only screen and (max-width: 992px){
+                position: static;
+                
+            }
+            p{
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: right;
+                color: #FFFFFF;
+                width: 420px;
+                margin-bottom: 41px;
+                @media only screen and (max-width: 992px){
+                    margin-left: auto;
+                }
+            }
+            b{
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+            }
+        }
+    
+    }
+
+
+    .geo-cont {
+        position: absolute;
+        top: 0;
+        right:  0;
+        min-width: 624px;
+        min-height: 478px;
+        width: 58%;
+        height: 90%;
+        background-image: url(../img/shar-t3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+}

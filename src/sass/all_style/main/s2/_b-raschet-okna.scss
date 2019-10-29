@@ -1,0 +1,75 @@
+.b-raschet-okna{
+    background-color: #FBC035;
+    margin-bottom: 40px;
+    .h2,
+    .b-form_lbl,
+    .b-form_ravno{
+        color: #000;
+        font-weight: 500;
+    }
+    .h2{
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .b-raschet__ttl1{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000;
+        strong{
+            font-weight: bold;
+        }
+    }
+    .b-form__item {
+        span{
+            color: #000;
+            font-weight: 500;
+        }
+        .b-form__field{
+            &::after{
+                line-height: 29px;
+                font-size: 24px;
+                top: 9px;
+                content: "м²";
+            }
+            input{
+                height: 50px;
+                width: 166px;
+                padding-right: 43px;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+                
+            }
+        } 
+    }
+    .b-form__block{
+        .b-form__item{ 
+            span{
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+            }
+            a{
+                background: linear-gradient(180deg, #1B809D 0%, #015B77 100%);
+                box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+            } 
+        }
+    }
+
+    .b-form__item{
+        .b-form_newprice {
+            
+            span{
+                
+                font-weight: bold;
+                font-size: 32px;
+                line-height: 39px;
+                color: #DD0053;
+                display: inline;
+            }
+        }
+    }
+    
+}

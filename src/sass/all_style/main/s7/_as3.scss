@@ -1,0 +1,161 @@
+.es9_correct_balcony-v1{
+    .calc_outside_balkon-filtr{
+        @media only screen and (max-width: 992px) {
+            flex-direction: column;
+        }
+
+        
+    }
+    .flex-row{
+        display: flex;
+    }
+    .textmaxecon-v2 {
+        margin-bottom: 40px;
+        & > span{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            text-transform: uppercase;
+            color: #000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        
+        & > div {
+            content: "";
+            margin-right: 23px;
+            width: 68px;
+            height: 68px;
+            background: #FBC035 url(../img/maxtemp_tepla.png) center no-repeat;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+    }
+    .vaz-param{
+        background: #ECECEC;
+        height: 68px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        border-radius: 34px;
+        align-items: center;
+        margin-bottom: 40px;
+        div{
+            width: 68px;
+            height: 68px;
+            margin-right: 25px;
+            flex-shrink: 0;
+        }
+    }
+    .vaz-param-temper{
+        div{
+            background:  url(../img/vaz-param-temper.png) center no-repeat;
+        }
+    }
+    .vaz-param-order{
+        div{
+            background:  url(../img/vaz-param-order.png) center no-repeat;
+        }
+    }
+    .calc_outside_balkon{
+        @media only screen and (max-width: 992px) {
+            flex-direction: column;
+        }
+        .hot_right, .cold_right{
+            @media only screen and (max-width: 992px) {
+                order: 1;
+                margin: 20px auto 0;
+            }
+        }
+
+        .hotcold {
+            @media only screen and (max-width: 992px) {
+                order: 0;
+            }
+            .hot{
+                background-image: url(../img/popul-vid-der-2.jpg);
+                background-size: contain;
+            }
+            .cold{
+                background-image: url(../img/popul-vid-der-3.jpg);
+                background-size: contain;
+            }
+        }
+    } 
+    .form-bg{
+        background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+        border-radius: 5px;
+        padding: 23px 15px 0;
+        text-align: center;
+        p{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            margin-bottom: 33px;
+            
+        }
+        .form-group{
+            width: 100%;
+            max-width: 362px;
+            margin-right: 0;
+            margin-bottom: 40px;
+            input{
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+        .red-button{
+            background: linear-gradient(180deg, #DD0053 0%, #A4164A 100%);
+            border-radius: 25px;
+            color: #fff;
+            max-width: 362px;
+            width: 100%;
+            font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+margin-bottom: 29px;
+        }
+
+    }
+}
+
+.template-okna-t3{
+    background: #015A76;
+    background-image: url(../img/b_market_filtr_bg.png);
+    padding-top: 40px;
+    .h2{
+        color: #fff;
+    }
+    .flex-item{
+        justify-content: center;
+        margin-right: 1vw;
+        margin-left: 1vw;
+        img{
+            border-radius: 50%;
+            border: 5px solid #fff;
+        }
+    }
+    
+
+    .flex-item{
+        .red-button{
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            text-transform: none;
+            height: 66px;
+            margin-bottom: 0;
+            margin-top: 14px;
+        
+
+            &::before{
+                transform: rotate(180deg) translateX(50%);
+                top: -12px;
+                border-top-color: rgb(254, 206, 81);
+            }
+        }
+    } 
+}
+

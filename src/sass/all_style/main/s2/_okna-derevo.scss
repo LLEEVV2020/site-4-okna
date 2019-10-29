@@ -1,0 +1,40 @@
+.okna-derevo{
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    padding-bottom: 60px;
+    .wrap-flex{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        @media only screen and (max-width: 992px) {
+            justify-content: center;
+        }
+    }
+    .item{
+        @media only screen and (max-width: 992px) {
+            width: 30%;
+            margin-bottom: 20px;
+        }
+       img{
+           display: block;
+           margin: 0 auto;
+       }
+       div{
+           margin-bottom: 19px;
+       }
+    }
+    p > a{
+        color: #DD0053;
+        text-decoration-line: underline;
+        &:hover{
+            text-decoration-line: none;
+        }
+    }
+    p + p{
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,204 @@
+.shar-t1.wrap-geo{
+    
+    position: relative;
+    overflow: visible; 
+    .geo-cont{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60%;
+        height: 100%;
+        background-image: url(../img/shar-t1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 50%;
+        background-position-x: 100%;
+        display: flex;
+        justify-content: flex-end;
+        @media only screen and (max-width: 992px) {
+            width: 99%;
+        }
+        @media only screen and (max-width: 767px) {
+            background: #11728e;
+        }
+        
+
+        .geo-cont-wrap{
+            padding-top: 282px;
+            width: 220px;
+            margin-right: 2vw;
+            @media only screen and (max-width: 1800px) {
+                margin-right: 1vw;
+            }
+            @media only screen and (max-width: 1500px) {
+                margin-right: -1vw;
+            }
+            @media only screen and (max-width: 992px) {
+                padding-top: 148px;
+                margin-right: 9vw;
+            }
+        }
+        .geo-item1{
+            background-image: url(../img/shar-1kryg.png);
+            width: 110px;
+            height: 110px;
+            @media only screen and (max-width: 767px){
+                display: none;
+            }
+        }
+        .geo-item2{
+            background-image: url(../img/shar-2kryg.png);
+            width: 165px;
+            height: 165px;
+            margin-top: 33px;
+            margin-left: auto;
+            @media only screen and (max-width: 992px) {
+                margin-top: 0px;
+            }
+            @media only screen and (max-width: 767px){
+                display: none;
+            }
+        }
+
+    }
+    .es1_doors{
+        overflow: visible;
+    }
+    .b-top__zamer{
+        position: absolute;
+        bottom: -63px;
+        right: -5px;
+        color: #fff;
+        @media only screen and (max-width: 992px) {
+            bottom: 163px;
+            right: 49px;
+        }
+        @media only screen and (max-width: 767px){
+            position: static;
+            margin-bottom: 0px;
+            margin: 21px auto 0;
+        }
+        .b-top__zamer_ruler{
+            background-image: url(../img/kalcylator.png);
+            width: 63px;
+            height: 75px;
+            margin-left: 9px;
+            margin-top: -4px;
+        }
+        .b-top__zamer_txt{
+            span{
+                font-size: 28px;
+                line-height: 34px;
+                @media only screen and (max-width: 767px){
+                    font-size: 25px;
+                    line-height: 26px;
+                }
+            }
+            font-size: 20px;
+            line-height: 24px;
+            
+            font-weight: bold;
+        }
+    }
+    .skidka-7day-wrapper{
+        display: flex;
+        @media only screen and (max-width: 767px){
+            justify-content: center;
+        }
+        @media only screen and (max-width: 500px){
+            flex-direction: column;
+        }
+
+        .skidka-7day{
+            background-repeat: no-repeat;
+            background-image: url(../img/skidka-7day-bg.png);
+            width: 246px;
+            height: 65px;
+            font-weight: bold;
+            color: #000000;
+            padding-left: 21px;
+            @media only screen and (max-width: 767px){
+                width: 230px;
+            }
+            @media only screen and (max-width: 500px){
+                width: auto;
+                background: none;
+                color: #fabf35;
+                height: auto;
+            }
+            div{
+                font-size: 36px;
+                line-height: 44px;
+                @media only screen and (max-width: 767px){
+                    font-size: 32px;
+                    line-height: 41px;
+                }
+                @media only screen and (max-width: 500px){
+                    text-align: center;
+                }
+            }
+            p{
+                font-size: 18.5px;
+                line-height: 1;
+                @media only screen and (max-width: 500px){
+                    display: none;
+                }
+            }
+        }
+        & > p{
+            color: #fff;
+            font-weight: bold;
+            font-size: 144px;
+            line-height: 0.71;
+            transform: translateX(-52px);
+            @media only screen and (max-width: 767px){
+                font-size: 100px;
+
+                transform: translateX(-41px);
+            }
+            @media only screen and (max-width: 500px){
+                transform: translateX(0);
+                text-align: center;
+            }
+            
+        }
+    }
+}
+
+.wrap-geo.shar-t1{
+    h1{
+        font-size: 50px;
+        line-height: 61px;
+        color: #fff;
+        margin-top: 19px;
+        margin-bottom: 38px;
+        color: #FFFFFF;
+        @media only screen and (max-width: 767px){
+            font-size: 41px;
+            line-height: 50px;
+            margin-bottom: 11px;
+        }
+    }
+ 
+    .es1-menu-wrapper{
+        @media only screen and (max-width: 767px){
+            margin-bottom: 25px;
+        }
+    }
+    .flex-item{
+        @media only screen and (max-width: 767px){
+            width: 280px;
+            margin: 5px auto;
+        }
+    }
+    .b-top__zamer{
+        @media only screen and (max-width: 767px){
+            width: 342px;
+            height: 70px;
+        }
+    }
+}
+.wrap-geo{
+    overflow: hidden;
+    position: relative;
+}

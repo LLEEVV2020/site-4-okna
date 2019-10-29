@@ -1,0 +1,15 @@
+.top_block__logo{
+    z-index: 1;
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+    display: flex;
+    flex: 0;
+    max-width: 255px;
+    span{
+        margin-left: 4px;
+    }
+}

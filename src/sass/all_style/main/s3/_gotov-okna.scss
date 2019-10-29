@@ -1,0 +1,162 @@
+.gotov-okna{
+padding-top: 40px;
+overflow: hidden;
+    .h3{
+        font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+margin-bottom: 0;
+padding-bottom: 0;
+& + p{
+    margin-bottom: 22px;
+}
+    }
+    p{
+        font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+    }
+    .flex-block{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 29px;
+        @media only screen and (max-width: 992px){
+            display: flex;
+        }
+    }
+    .flex-item{
+
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        .red-button{
+            margin-bottom: 0;
+            width: 264px;
+            &::before{
+                display: none;
+            }
+        }
+        .zakaz-block{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: auto;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            @media only screen and (max-width: 540px){
+                flex-direction: column;
+            }
+           
+            p{
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                @media only screen and (max-width: 540px){
+                    margin-bottom: 15px;
+                }
+               
+            }
+        }
+        img{
+            @media only screen and (max-width: 540px){
+                width: 100%;
+            }
+        }
+    }
+
+    .block-price {
+        margin-bottom: 25px;
+        @media only screen and (max-width: 540px){
+            margin-bottom: 5px;
+        }
+        .price{
+    font-size: 64px;
+    line-height: 78px;
+        }
+        .savings{
+            width: 270px;
+            height: 80px;
+            background-image: url(../img/savings-bg-2.png);
+            margin-left: -39px;
+            padding-left: 80px;
+            padding-right: 7px;
+            padding-top: 11px;
+            @media only screen and (max-width: 540px){
+                display: none;
+            }
+            span{
+                font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+            }
+            span + span{
+                font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+            }
+        }
+    }
+
+    .b-calc__ul_onoff{
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+        margin-bottom: 32px;
+        justify-content: center;
+        li + li{
+            margin-left: 21px;
+            @media only screen and (max-width: 540px){
+                margin-left: 0 !important;
+                margin-top: 10px;
+            }
+        }
+        
+        @media only screen and (max-width: 1201px){
+            justify-content: center;
+        }
+        @media only screen and (max-width: 540px){
+            flex-direction: column;
+        }
+        li{
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 39px;
+            text-transform: uppercase;
+            /* identical to box height */
+
+            text-align: center;
+            color: #DD0053;
+            
+            a{
+              color: #9A9A9A;  
+            }
+        }
+        .perekluchatel{
+            width: 80px;
+            height: 30px;
+            position: relative;
+            background: #FBC035;
+            -webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.15);
+            box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.15);
+            border-radius: 20px;
+            display: block;
+            
+            &::before {
+                content: "";
+                position: absolute;
+                top: 1px;
+                right: 1px;
+                background: #FFFFFF;
+                -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+                box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+                border-radius: 50%;
+                width: 28px;
+                height: 28px;
+            }
+        }
+    }
+    
+}
